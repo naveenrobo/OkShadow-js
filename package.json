@@ -1,0 +1,20 @@
+{
+  "name": "okshadow",
+  "version": "1.0.0",
+  "description": "okshadow modified without using jquery",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveenrobo/okshadow-js.git"
+  },
+  "keywords": [
+    "okshadow",
+    "shadow"
+  ],
+  "author": "Naveen Sakthivel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naveenrobo/okshadow-js/issues"
+  },
+  "homepage": "https://github.com/naveenrobo/okshadow-js#readme"
+}

@@ -1,6 +1,7 @@
 /* 
  * OKShadow implementation in javascript so it can be used as a package
-*/
+ * Author : Naveen Sakthivel
+ */
 const okshadow = function (el, options) {
     var base = this;
     base.el = el;
@@ -169,3 +170,5 @@ window.requestAnimFrame = (function () {
             window.setTimeout(callback, 1000 / 60);
         };
 })();
+
+export default okshadow
