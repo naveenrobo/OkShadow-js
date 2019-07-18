@@ -29,11 +29,15 @@ p. OKShadow offers the method *setoption* so parameters can be changed after ins
 
 <pre class='js'>
 <code>
-$('#ok').okshadow();
-$('#ok').data("okshadow").setoption({
-  "color": "red",
-  "fuzzMin": 10,
-});
+var ele = document.getElementById('sh');
+okshadow(ele, {
+    color: 'rgba(0,0,0,.06)',
+    textShadow: !0,
+    xMax: 10,
+    yMax: 10,
+    fuzzMin: 12,
+    fuzzMax: 15,
+})
 </code>
 </pre>
 
